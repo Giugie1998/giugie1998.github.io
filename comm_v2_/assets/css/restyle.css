@@ -1,0 +1,155 @@
+#top-logo-tag{
+    width: 80px;
+    position: relative;
+    top: -15px;
+}
+.b-title-logo{
+    position: fixed;
+}
+.rs-font-menu{
+    font-size: 1em !important;
+}
+/*!#ac5ee7*/
+
+#video-logo{
+     border-radius: 50%;
+    overflow: hidden;
+}
+
+.section-about{
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 23px;
+}
+
+.icon-objective{
+    position: relative;
+    margin: auto;
+    display: block;
+}
+
+.gnh-txt{
+    text-transform: capitalize; 
+    font-family: 'Abang', sans-serif;
+}
+
+.card-event{
+    background: white !important;
+    margin: 15px 0px;
+}
+.title-event {
+    color: #000000;
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+}
+.month-event {
+    text-transform: capitalize;
+    color: #8458d7;
+    font-size: 20px;
+}
+.day-event {
+    color: #000000;
+    font-size: 40px;
+    position: relative;
+    top: -10px;
+}
+/*Media query fix*/
+
+@media (max-width: 993px) {
+    #top-logo-tag{
+    width: 70px !important;
+    position: relative;
+    top: -10px !important;
+    }
+    .gnh-txt{
+        font-size: 25px;
+    }
+}
+
+
+/*animation*/
+
+#g-animation {
+    animation: color-change-g 10s infinite;
+}
+
+@keyframes color-change-g {
+    0% {
+        color: white;
+    }
+
+    25% {
+        color: gray;
+    }
+
+    50% {
+        color: rgb(104 63 194);
+    }
+
+    75% {
+        color: gray;
+    }
+
+    100% {
+        color: white;
+    }
+}
+
+#n-animation {
+    animation: color-change-n 10s infinite;
+}
+
+@keyframes color-change-n {
+    0% {
+        color: gray;
+    }
+
+    25% {
+        color: rgb(104 63 194);
+    }
+
+    50% {
+        color: white;
+    }
+
+    75% {
+        color: rgb(104 63 194);
+    }
+
+    100% {
+        color: gray;
+    }
+
+    /*  75% {color: gray;}
+  100% {color: white;}*/
+}
+
+#h-animation {
+    animation: color-change-h 10s infinite;
+}
+
+@keyframes color-change-h {
+    0% {
+        color: rgb(104 63 194);
+    }
+
+    25% {
+        color: white;
+    }
+
+    50% {
+        color: gray;
+    }
+
+    75% {
+        color: white;
+    }
+
+    100% {
+        color: rgb(104 63 194);
+    }
+
+    /*  75% {color: gray;}
+  100% {color: white;}*/
+}
