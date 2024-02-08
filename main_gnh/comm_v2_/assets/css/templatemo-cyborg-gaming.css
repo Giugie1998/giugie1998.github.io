@@ -706,12 +706,12 @@ Header Style
     margin-top: 70px !important;
   }
   .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #eabaff;
   }
   .header-area .main-nav .nav li {
     width: 100%;
     background: #222;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eabaff;
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
