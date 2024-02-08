@@ -54,6 +54,11 @@
     position: relative;
     top: -10px;
 }
+
+.row-date-event{
+    text-align: center;
+    margin: 5px 0px;
+}
 /*Media query fix*/
 
 @media (max-width: 993px) {
@@ -66,7 +71,16 @@
         font-size: 25px;
     }
 }
-
+/* * EVENTS fix */
+@media (max-width: 575px) {
+    .row-date-event{text-align: left;}
+    .day-event{float: left;}
+    .month-event{
+        position: relative;
+        top: 5px;
+        left: 5px;
+    }
+}
 
 /*animation*/
 
@@ -153,6 +167,3 @@
     /*  75% {color: gray;}
   100% {color: white;}*/
 }
-
-/*Try gradient animation*/
-
