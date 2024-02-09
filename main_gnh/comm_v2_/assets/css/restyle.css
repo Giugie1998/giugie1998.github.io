@@ -59,9 +59,16 @@
     text-align: center;
     margin: 5px 0px;
 }
+
+.top-member-img{
+/*    width: 216px;*/
+    height: 162px;
+}
+
+
 /*Media query fix*/
 
-@media (max-width: 993px) {
+@media (max-width: 770px) {
     #top-logo-tag{
     width: 70px !important;
     position: relative;
@@ -70,6 +77,7 @@
     .gnh-txt{
         font-size: 25px;
     }
+    .top-member-img{height: auto;}
 }
 /* * EVENTS fix */
 @media (max-width: 575px) {
