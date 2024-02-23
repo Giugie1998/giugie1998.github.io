@@ -326,8 +326,6 @@ Pre-loader Style
   border-radius: 50%;
 }
 
-
-
 /* 
 ---------------------------------------------
 Header Style
@@ -336,7 +334,7 @@ Header Style
 
 .background-header {
   background-color: #222222 !important;
-  height: 70px!important;
+  /*height: 70px!important;*/
   position: fixed!important;
   top: 0!important;
   left: 0;
@@ -616,6 +614,7 @@ Header Style
 
 .header-area.header-sticky {
   min-height: 70px;
+  
 }
 
 .header-area.header-sticky .nav li a.active {
@@ -669,12 +668,13 @@ Header Style
     width: 100%;
   }
   .header-area {
-    background-color:#222222;/* #f7f7f7;*/
+    background-color: #222222;/* #f7f7f7;*/
     padding: 0px 15px;
     height: 80px;
     box-shadow: none;
     text-align: center;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 15px;
+    margin: 10px;
   }
   .header-area .container {
     padding: 0px;
@@ -699,19 +699,19 @@ Header Style
     margin-left: 0px;
   }
   .header-area.header-sticky .nav {
-    margin-top: 65px !important;
+    margin-top: 75px !important;
     text-align: center;
   }
   .background-header.header-sticky .nav {
     margin-top: 70px !important;
   }
   .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eabaff;
+    /*border-top: 1px solid #eabaff;*/
   }
   .header-area .main-nav .nav li {
     width: 100%;
     background: #222;
-    border-bottom: 1px solid #eabaff;
+    /*border-bottom: 1px solid #eabaff;*/
     padding-left: 0px !important;
     padding-right: 0px !important;
   }

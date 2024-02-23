@@ -64,7 +64,12 @@
 /*    width: 216px;*/
     height: 162px;
 }
-
+.fix-first-menu {
+    border-radius: 15px 15px 0 0 !important;
+}
+.fix-last-menu {
+    border-radius: 0 0 15px 15px !important;
+}
 
 /*Media query fix*/
 
@@ -78,6 +83,12 @@
         font-size: 25px;
     }
     .top-member-img{height: auto;}
+
+    .header-area.header-sticky {
+        position: fixed;
+        display: inline-block;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+    }
 }
 /* * EVENTS fix */
 @media (max-width: 575px) {
