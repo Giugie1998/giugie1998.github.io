@@ -76,15 +76,56 @@
     text-align: center;
     left: 10px;
 }
-.social-card{
-    
-    height: 300px;
+.section-social-descr {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 23px;
+}
+.section-social {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 23px;
+}
+.descr-social{
+    height: 230px;
+        background-image: url(../../media/img/bg/bg-social2.jpg);
+        background-size: auto;
+        background-position: bottom;
+        background-repeat: inherit;
+        background-position-y: -270px;
+        border-radius: 15px;
+        background-size: 1000px;
+        background-color: rgba(255, 255, 255, 0.5);
 }
 
+.social-card{
+    margin-top: 15px;
+    position: relative;
+    text-align: center;
+    height: 135px;
+    border-radius: 15px;
+    color: white;
+    transition: background-color 1.5s, filter 1.5s;
+    filter: brightness(75%);
+}
+.social-card:hover {
+    background-color: #8458d762;
+    filter: brightness(100%);
+}
+.social-icon{
+    position: relative;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
 body{
+    min-height: 100vh;
 background-image: 
     linear-gradient(to bottom, rgb(0 0 0) 0%, rgb(0 0 0 / 43%) 100%),
-    url(../images/bg-homepage.jpg);
+    url(../../media/img/bg/bg-homepage.jpg);
     background-size: auto;
     background-position: bottom;
     background-repeat: inherit;
@@ -208,3 +249,6 @@ background-image:
     /*  75% {color: gray;}
   100% {color: white;}*/
 }
+
+/**OnMouseHover*/
+
