@@ -109,7 +109,7 @@
     background-repeat: inherit;
     background-position-y: -270px;
     border-radius: 15px;
-    background-size: 1000px;
+    background-size: 800px;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -148,6 +148,13 @@ background-image:
 
 }
 /*Media query fix*/
+@media (min-width: 1200px) {
+    .descr-member{
+        background-size: cover;
+            background-position-y: -370px;
+    }
+}
+
 
 @media (max-width: 770px) {
     #top-logo-tag{
@@ -159,12 +166,12 @@ background-image:
         font-size: 25px;
     }
     .top-member-img {
-        height: auto;
+        height: 126px;
             object-fit: cover;
                 object-position: center;
     }
     .member-img {
-        height: 130px;
+        /*height: 130px;*/
             object-fit: cover;
                 object-position: center;
     }
