@@ -63,6 +63,8 @@
 .top-member-img{
 /*    width: 216px;*/
     height: 162px;
+        object-fit: cover;
+            object-position: center;
 }
 .fix-first-menu {
     border-radius: 15px 15px 0 0 !important;
@@ -88,16 +90,27 @@
     background-color: #000000;
     border-radius: 23px;
 }
-.descr-social{
+.descr-social {
     height: 230px;
-        background-image: url(../../media/img/bg/bg-social2.jpg);
-        background-size: auto;
-        background-position: bottom;
-        background-repeat: inherit;
-        background-position-y: -270px;
-        border-radius: 15px;
-        background-size: 1000px;
-        background-color: rgba(255, 255, 255, 0.5);
+    background-image: url(../../media/img/bg/bg-social2.jpg);
+    background-size: auto;
+    background-position: bottom;
+    background-repeat: inherit;
+    background-position-y: -270px;
+    border-radius: 15px;
+    background-size: 1000px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.descr-member {
+    height: 230px;
+    background-image: url(../../media/img/bg/bg-members2.jpg);
+    background-size: auto;
+    background-position: bottom;
+    background-repeat: inherit;
+    background-position-y: -270px;
+    border-radius: 15px;
+    background-size: 1000px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .social-card{
@@ -121,11 +134,14 @@
     height: 80px;
     border-radius: 15px;
 }
+.text-align-end{
+    text-align: end;
+}
 body{
     min-height: 100vh;
 background-image: 
     linear-gradient(to bottom, rgb(0 0 0) 0%, rgb(0 0 0 / 43%) 100%),
-    url(../../media/img/bg/bg-homepage.jpg);
+    url(../../media/img/bg/bg-homepage.png);
     background-size: auto;
     background-position: bottom;
     background-repeat: inherit;
@@ -142,8 +158,16 @@ background-image:
     .gnh-txt{
         font-size: 25px;
     }
-    .top-member-img{height: auto;}
-
+    .top-member-img {
+        height: auto;
+            object-fit: cover;
+                object-position: center;
+    }
+    .member-img {
+        height: 130px;
+            object-fit: cover;
+                object-position: center;
+    }
     .header-area.header-sticky {
         position: fixed;
         display: inline-block;
